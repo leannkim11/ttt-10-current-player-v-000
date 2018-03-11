@@ -3,7 +3,7 @@ def turn_count(board)
     board.each do |count|
       board_count = []
       if "#{count}" == "X" || count == "O"
-        puts "#{count}".count.to_i
+        puts "#{count}".count
       counter += 1
       board_count << "#{count}"
       end
