@@ -1,11 +1,11 @@
 def turn_count(board)
   counter = 0
-    board.each do |count|
+    board.each do |count_turn|
       board_count = []
-      if count == "X" || count == "O"
-        puts count.count
+      if count_turn == "X" || count == "O"
+        puts count_turn.count
       counter += 1
-      board_count << count
+      board_count << count_turn
       end
 end
 
