@@ -1,8 +1,9 @@
 def turn_count(board)
-  counter = 0
     board.each do |count_turn|
       if count_turn == "X" || count_turn == "O"
-        counter += 1
+        new_array =[]
+        new_array << count_turn
+        new_array.count
       end
     end
 end
