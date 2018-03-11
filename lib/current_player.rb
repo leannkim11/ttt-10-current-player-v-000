@@ -5,7 +5,7 @@ def turn_count(board)
       if count_turn == "X" || count_turn == "O"
         board_count << count_turn
         counter += 1
-        board_count.count.to_i
+        board_count.count
       end
     end
 end
