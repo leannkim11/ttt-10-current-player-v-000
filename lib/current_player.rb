@@ -4,7 +4,6 @@ def turn_count(board)
         new_array =[]
         new_array << count_turn
       end
-      new_array.count
     end
 end
 
