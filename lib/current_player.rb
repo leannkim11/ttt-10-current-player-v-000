@@ -1,12 +1,12 @@
-# def turn_count(board)
-#     board.each do |count_turn|
-#     new_array =[]
-#       if count_turn == "X" || count_turn == "O"
-#         new_array << count_turn
-#       end
-#     new_array.count
-#     end
-# end
+def turn_count(board)
+    board.each do |count_turn|
+    new_array =[]
+      if count_turn == "X" || count_turn == "O"
+        new_array << count_turn
+      end
+    new_array.count
+    end
+end
 
 def turn_count(board)
   counter = 0
@@ -16,8 +16,8 @@ def turn_count(board)
         board_count << count_turn
         counter += 1
       end
-        counter
     end
+  counter
 end
 
 def current_player(board)
