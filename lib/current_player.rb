@@ -3,7 +3,7 @@ def turn_count(board)
       if count_turn == "X" || count_turn == "O"
         new_array =[]
         new_array << count_turn
-        new_array.count
+        new_array.length
       end
     end
 end
