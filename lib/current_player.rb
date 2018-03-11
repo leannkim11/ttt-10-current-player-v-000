@@ -1,8 +1,8 @@
 def turn_count(board)
   counter = 0
-  board.each do |turn|
+  board.each do |count|
+    #{count}
     counter += 1
-    count_turn = #{turn}
     end
 end
 
